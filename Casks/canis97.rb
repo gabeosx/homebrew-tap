@@ -1,0 +1,20 @@
+cask "canis97" do
+  version "0.1.0"
+  sha256 "6d4665ec87bf35eda541e0535a8e7408052e6c21d522ecb855c3ab1560aaecfd"
+
+  url "https://github.com/gabeosx/canis97/releases/download/v#{version}/Canis97-#{version}-arm64.zip"
+  name "Canis97"
+  desc "Native macOS SiriusXM player"
+  homepage "https://github.com/gabeosx/canis97"
+
+  depends_on arch: :arm64
+  depends_on macos: ">= :tahoe"
+
+  app "Canis97.app"
+
+  zap trash: [
+    "~/Library/Application Support/Canis97",
+    "~/Library/Preferences/com.canis97.player.plist",
+    "~/Library/Saved Application State/com.canis97.player.savedState",
+  ]
+end
