@@ -1,8 +1,8 @@
 cask "canis97" do
-  version "0.1.0"
-  sha256 "6d4665ec87bf35eda541e0535a8e7408052e6c21d522ecb855c3ab1560aaecfd"
+  version "0.1.2"
+  sha256 "586b00e477fe6505c402f110b792d5bbf3ad4540f877cfde7aff04afb8f72f77"
 
-  url "https://github.com/gabeosx/canis97/releases/download/v#{version}/Canis97-#{version}-arm64.zip"
+  url "https://github.com/gabeosx/canis97/releases/download/v#{version}/Canis97-#{version}-arm64.dmg"
   name "Canis97"
   desc "Native macOS SiriusXM player"
   homepage "https://github.com/gabeosx/canis97"
