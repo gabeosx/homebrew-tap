@@ -1,6 +1,6 @@
 cask "canis97" do
-  version "0.2.0"
-  sha256 "3a58acf39e7301ee48ca415753810ff4155dbcf1b40738347abebdb856abcd08"
+  version "0.2.1"
+  sha256 "a18fb3a7c50f415b7a6bb99743c05612d06f259850539119080db85849fbf90f"
 
   url "https://github.com/gabeosx/canis97/releases/download/v#{version}/Canis97-#{version}-arm64.dmg"
   name "Canis97"
