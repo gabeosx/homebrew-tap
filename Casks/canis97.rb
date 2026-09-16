@@ -4,11 +4,11 @@ cask "canis97" do
 
   url "https://github.com/gabeosx/canis97/releases/download/v#{version}/Canis97-#{version}-arm64.dmg"
   name "Canis97"
-  desc "Native macOS SiriusXM player"
+  desc "Native SiriusXM player"
   homepage "https://github.com/gabeosx/canis97"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Canis97.app"
 
